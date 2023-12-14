@@ -3,9 +3,60 @@
     
 }
 
-.max{
-    width: 85%;
+
+.alt{
+    height: 97vh;
+    overflow: hidden;
+}
+
+
+.left1{
+    background-image: url("./img/sidebar-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #051E34;
 }
 
 
 
+
+
+.blue{
+    background-color: #1B72E8;
+}
+
+.dark-blue{
+    background-color: #165BBA;
+}
+
+
+
+.dropdown-menu[data-bs-popper]{
+    left: -150px;
+}
+
+
+
+.max{
+    width: 70%;
+}
+
+
+
+.row>*{
+    padding: 0px;
+}
+
+
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
+    --bs-offcanvas-width: 100vw
+}
+
+
+
+
+@media screen and (min-width:992px) {
+    .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
+        --bs-offcanvas-width: 600px
+    }
+}
