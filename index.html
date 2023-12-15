@@ -22,11 +22,15 @@
 
         <nav class="navbar bg-body-tertiary container-fluid navbar-expand ">
             <div class="container-fluid flex-nowrap w-100 justify-content-space-between">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid d-lg-none" src="./img/mobile-logo.png" alt="" height="60" width="60">
+
+                    <img class="img-fluid d-none d-lg-block" src="./img/logo.svg" alt="" width="200">
+                </a>
 
 
                 <form class="d-flex ltgrey rounded-2 align-items-center w-100 " role="search" >
-                    <i class="bi bi-search"></i>
+                    <i class="bi bi-search ms-3"></i>
                     <input class="form-control  ltgrey" type="search" placeholder="Prova a cercare Lezioni di Laravel" aria-label="Search">
                     
                 </form>
@@ -43,8 +47,8 @@
                         <a class="nav-link" href="#"><i class="bi bi-three-dots-vertical"></i></a>
                     </li>
                     <li class="nav-item dropdown " >
-                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"><i class="bi bi-bell-fill"></i></a> 
-                        <ul class="dropdown-menu">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"><i class="bi bi-bell-fill text-warning"></i></a> 
+                        <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>

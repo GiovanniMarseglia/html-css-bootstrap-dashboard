@@ -31,20 +31,12 @@
 
 
 
-.dropdown-menu[data-bs-popper]{
-    left: -150px;
-}
-
-
-
-
-
-
-
 .row>*{
     padding: 0px;
 }
 
+
+/* canvas element "Nuovo Studente" */
 
 .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
     --bs-offcanvas-width: 100vw
