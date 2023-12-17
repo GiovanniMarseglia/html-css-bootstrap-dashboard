@@ -45,8 +45,29 @@
 
 
 
+
+    .dim-nav-def{
+        width: 40px;
+    }
+
+
+
+@media screen and (min-width:768px) {
+    .dim-nav_md{
+        width: 150px;
+    }
+}
+
+
+
+
 @media screen and (min-width:992px) {
     .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
         --bs-offcanvas-width: 600px
     }
 }
+
+
+
+
+
